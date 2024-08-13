@@ -17,6 +17,7 @@
 		D558F37F2C6BCE33000BE7EB /* LittleLemonMenuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D558F37E2C6BCE33000BE7EB /* LittleLemonMenuAppUITests.swift */; };
 		D558F3812C6BCE33000BE7EB /* LittleLemonMenuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D558F3802C6BCE33000BE7EB /* LittleLemonMenuAppUITestsLaunchTests.swift */; };
 		D558F3902C6BDEB2000BE7EB /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D558F38F2C6BDEB2000BE7EB /* MenuItem.swift */; };
+		D558F3932C6BDF63000BE7EB /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D558F3922C6BDF63000BE7EB /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D558F37E2C6BCE33000BE7EB /* LittleLemonMenuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonMenuAppUITests.swift; sourceTree = "<group>"; };
 		D558F3802C6BCE33000BE7EB /* LittleLemonMenuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonMenuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D558F38F2C6BDEB2000BE7EB /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		D558F3922C6BDF63000BE7EB /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				D558F38D2C6BDE61000BE7EB /* Model */,
 				D558F38E2C6BDE69000BE7EB /* View */,
+				D558F3912C6BDF37000BE7EB /* Controller */,
 				D558F35E2C6BCE30000BE7EB /* LittleLemonMenuAppApp.swift */,
 				D558F3622C6BCE33000BE7EB /* Assets.xcassets */,
 				D558F3672C6BCE33000BE7EB /* Persistence.swift */,
@@ -150,6 +153,14 @@
 				D558F3602C6BCE30000BE7EB /* ContentView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D558F3912C6BDF37000BE7EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D558F3922C6BDF63000BE7EB /* MenuController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 				D558F3612C6BCE30000BE7EB /* ContentView.swift in Sources */,
 				D558F36B2C6BCE33000BE7EB /* LittleLemonMenuApp.xcdatamodeld in Sources */,
 				D558F35F2C6BCE30000BE7EB /* LittleLemonMenuAppApp.swift in Sources */,
+				D558F3932C6BDF63000BE7EB /* MenuController.swift in Sources */,
 				D558F3902C6BDEB2000BE7EB /* MenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
